@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(249, 203, 156);
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.titel {
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(245 , 245, 245);
+    font-size: 36px;
+    margin-top: 25px;
+    margin-left: 30px;
+    position: inherit;
+}
+
+h1 {
+    margin: 0 auto;
+    width: max-content;
+    font-size: 56px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-weight: lighter;
+    font-size: 44px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    flex: 1;
+    width: 33%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+}
+
+.col-1-5 {
+    width: 20%;
+    align-items: center;
+}
+
+.menu {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.products-link {
+    background-color: white;
+    text-align: center;
+    padding: 16px;
+    width: 50%;
+    margin: 25px auto;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.products-link:hover {
+    box-shadow: black 10px 10px 25px;
+}
+
+.sale {
+    text-align: right;
+    color: red;
+}
+
+.image-box {
+    width: 75%;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.nailpolish-options {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nailpolish-option {
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.violett {
+    background-color: purple;
+}
+
+.red {
+    background-color: red;
+}
+
+#nail-size {
+    padding: 1px;
+    margin: 4px;
+}
+
+.row-1-5 {
+    align-items: baseline;
+}
